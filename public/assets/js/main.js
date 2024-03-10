@@ -739,6 +739,8 @@ if(document.location.pathname=="/unos"){
         let selected_item=document.querySelector("#brend_id").value;
         if(selected_item!=0){
             $.ajax({
+
+
                 url: '/getModel/'+selected_item, // Primer URL-a
                 method: 'GET', // HTTP metoda (GET, POST, itd.)
                 success: function (data) {
