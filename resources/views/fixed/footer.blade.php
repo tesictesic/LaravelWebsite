@@ -66,6 +66,7 @@
                             <li><a href="#">career</a></li>
                             <li><a href="#">terms <span> of service</span></a></li>
                             <li><a href="#">privacy policy</a></li>
+                            <li><a href="{{asset('dokumentacija.pdf')}}" target="_blank">Documentation</a></li>
                         </ul>
                     </div>
                 </div>
