@@ -1,0 +1,12 @@
+@extends('adminPanel.adminlayout')
+@section('admin_content')
+    <x-admin-insert-component
+        :kolone="$columns"
+        :tabela="$tabela"
+        :listic1="$niz"
+        :listic2="$niz2"
+        :listic3="$niz3"
+        :listic4="$niz4"
+        :listic5="$niz5"
+    />
+@endsection
